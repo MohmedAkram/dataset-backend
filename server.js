@@ -164,4 +164,4 @@ app.get("/stats/top-tags", (req, res) => {
 
 app.listen(3001, () => { console.log("🚀 Server running on port 3001"); });
 
-module.exports = app;
+export default app;
